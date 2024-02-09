@@ -1,0 +1,127 @@
+@charset "UTF_8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(193, 193, 247, 0.39), rgba(79, 79, 97, 0.212), lightgray, gray);
+}
+
+.home {
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 58%;
+    height: 370px;
+
+    border-radius: 10px;
+    box-shadow: 2px 2px px rgba(0, 0, 0, 0.452);
+    
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+
+}
+
+.home .titulo {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home  .texto {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    
+
+}
+
+.home section form {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.home section form span {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+}
+
+.home section form span input {
+    width: 93%;
+    height: 90%;
+    border-radius: 10px;
+    
+}
+
+.home section form span #icon {
+    color: white;
+    
+}
+
+.home .formulario {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 1px;
+    background-color: rgba(56, 56, 56, 0.993);
+    width: 98%;
+    height: 40px;
+
+
+    
+}
+
+
+
+.home button {
+    display: flex;
+    margin: 5px;
+    padding: 1px;
+    border-radius: 10px;
+    width: 98%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    background-color: rgba(95, 158, 160, 0.39) ;
+    color: black;
+    font-size: 15px;
+}
+
+.home button:hover {
+    background-color: black;
+    color: white;
+}
+
+.imagem {
+    width: 100%;
+    height: 100%;
+    background: url(../imagens/dark.jpg) no-repeat center center fixed;
+    
+    
+
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+
+
+
