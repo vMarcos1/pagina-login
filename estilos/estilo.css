@@ -88,6 +88,10 @@ body {
     
 }
 
+.home input {
+    padding: 10px;
+}
+
 
 
 .home button {
